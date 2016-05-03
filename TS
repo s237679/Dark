@@ -1,21 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
-  <title>Test Suite</title>
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://demo.avactis.com/" />
+<title>Test Case</title>
 </head>
 <body>
-<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
-<tr><td><b>Test Suite</b></td></tr>
-<tr><td><a href="TestCase1a.html">TestCase1a</a></td></tr>
-<tr><td><a href="TestCase1b.html">TestCase1b</a></td></tr>
-<tr><td><a href="TestCase2.html">TestCase2</a></td></tr>
-<tr><td><a href="TestCase3.html">TestCase3</a></td></tr>
-<tr><td><a href="TestCase4.html">TestCase4</a></td></tr>
-<tr><td><a href="TestCase5.html">TestCase5</a></td></tr>
-<tr><td><a href="TestCase6.html">TestCase6</a></td></tr>
-<tr><td><a href="TestCase7.html">TestCase7</a></td></tr>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Test Case</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/4.7.9/cart.php</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div.form-group &gt; a.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@value='Continue Checkout']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=shippingModuleAndMethod[method_code]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@value='Continue Checkout'])[2]</td>
+	<td></td>
+</tr>
 </tbody></table>
 </body>
 </html>
